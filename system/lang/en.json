@@ -194,6 +194,16 @@
       "completedUnmarked": "unmarked completed"
     },
     "Settings": {
+      "Ironsworn": "Ironsworn",
+      "Starforged": "Starforged",
+      "MoveSet": {
+        "Name": "Move set",
+        "Hint": "Which moves will be shown in the move toolbox."
+      },
+      "OracleSet": {
+        "Name": "Oracle set",
+        "Hint": "Which oracles will be shown in the oracle toolbox."
+      },
       "Theme": {
         "Name": "Visual Theme",
         "Hint": "Select the visual look for this game. Requires a reload.",

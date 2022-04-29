@@ -4,6 +4,32 @@ function reload() {
 
 export class IronswornSettings {
   static registerSettings() {
+    game.settings.register('foundry-ironsworn', 'move-set', {
+      name: 'IRONSWORN.Settings.MoveSet.Name',
+      hint: 'IRONSWORN.Settings.MoveSet.Hint',
+      scope: 'world',
+      config: true,
+      type: String,
+      choices: {
+        ironsworn: 'IRONSWORN.Settings.Ironsworn',
+        starforged: 'IRONSWORN.Settings.Starforged',
+      },
+      default: 'ironsworn',
+    })
+
+    game.settings.register('foundry-ironsworn', 'oracle-set', {
+      name: 'IRONSWORN.Settings.OracleSet.Name',
+      hint: 'IRONSWORN.Settings.OracleSet.Hint',
+      scope: 'world',
+      config: true,
+      type: String,
+      choices: {
+        ironsworn: 'IRONSWORN.Settings.Ironsworn',
+        starforged: 'IRONSWORN.Settings.Starforged',
+      },
+      default: 'ironsworn',
+    })
+
     game.settings.register('foundry-ironsworn', 'theme', {
       name: 'IRONSWORN.Settings.Theme.Name',
       hint: 'IRONSWORN.Settings.Theme.Hint',
