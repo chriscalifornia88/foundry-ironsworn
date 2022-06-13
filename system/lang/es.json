@@ -455,17 +455,17 @@
           }
         }
       },
-      "Ask the Oracle": {
+      "Ask for Inspiration": {
         "title": "Pregunta al oráculo",
         "description": "<p>Cuando <strong>buscas dar respuesta a una pregunta, descubrir detalles del mundo, determinar cómo reaccionan otros personajes o desencadenar eventos o encuentros</li>, elige una:</p>\n<ul>\n<li><strong>Decídelo tú:</strong> Llega a una conclusión basándote en el resultado que sea más obvio e interesante.</li>\n<li><strong>Haz una pregunta de sí/no:</strong> Decide cuáles son las probabilidades de que la respuesta sea «sí» y tira en la tabla de más abajo.</li>\n<li><strong>Elige entre dos opciones:</strong> Piensa dos opciones. Establece una como «probable» y tira en la tabla de más abajo para ver si es verdad. Si no lo es, entonces es cierta la otra opción.</li>\n<li><strong>Inspírate:</strong> Haz una lluvia de ideas o usa una herramienta para generar propuestas aleatorias.</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th>Probabilidades</th>\n<th>La respuesta «sí» si sacas... es</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Casi seguro</td>\n<td>11 o más</td>\n</tr>\n<tr>\n<td>Probable</td>\n<td>26 o más</td>\n</tr>\n<tr>\n<td>50/50</td>\n<td>51 o más</td>\n</tr>\n<tr>\n<td>Improbable</td>\n<td>76 o más</td>\n</tr>\n<tr>\n<td>Raro</td>\n<td>91 o más</td>\n</tr>\n</tbody></table>\n"
       },
       "Discover a Site": {
         "title": "Discover a Site",
-        "description": "<p>When <strong>you resolve to enter a perilous site in pursuit of an objective</strong>, choose the theme and domain which best represent its nature (<em>Ask the Oracle</em> if unsure), and give it a rank.</p>\n<ul>\n<li>Troublesome site: 3 progress per area.</li>\n<li>Dangerous site: 2 progress per area.</li>\n<li>Formidable site: 1 progress per area.</li>\n<li>Extreme site: 2 ticks per area.</li>\n<li>Epic site: 1 tick per area.</li>\n</ul>\n<p>If you are returning to a previously explored site, roll both challenge dice, take the lowest value, and clear that number of progress boxes.</p>\n<p>Then, <strong>Delve the Depths</strong> to explore this place.</p>\n"
+        "description": "<p>When <strong>you resolve to enter a perilous site in pursuit of an objective</strong>, choose the theme and domain which best represent its nature (<em>Ask for Inspiration</em> if unsure), and give it a rank.</p>\n<ul>\n<li>Troublesome site: 3 progress per area.</li>\n<li>Dangerous site: 2 progress per area.</li>\n<li>Formidable site: 1 progress per area.</li>\n<li>Extreme site: 2 ticks per area.</li>\n<li>Epic site: 1 tick per area.</li>\n</ul>\n<p>If you are returning to a previously explored site, roll both challenge dice, take the lowest value, and clear that number of progress boxes.</p>\n<p>Then, <strong>Delve the Depths</strong> to explore this place.</p>\n"
       },
       "Delve the Depths": {
         "title": "Delve the Depths",
-        "description": "<p>When you <strong>traverse an area within a perilous site</strong>, envision your surroundings (<em>Ask the Oracle</em> if unsure). Then, consider your approach. If you navigate this area...</p>\n<ul>\n<li>With haste: Roll +edge.</li>\n<li>With stealth or trickery: Roll +shadow.</li>\n<li>With observation, intuition, or expertise: Roll +wits.</li>\n</ul>\n",
+        "description": "<p>When you <strong>traverse an area within a perilous site</strong>, envision your surroundings (<em>Ask for Inspiration</em> if unsure). Then, consider your approach. If you navigate this area...</p>\n<ul>\n<li>With haste: Roll +edge.</li>\n<li>With stealth or trickery: Roll +shadow.</li>\n<li>With observation, intuition, or expertise: Roll +wits.</li>\n</ul>\n",
         "strong": "<p>On a <strong>strong hit</strong>, you delve deeper. Mark progress and <em>Find an Opportunity</em>. </p>\n",
         "weak": "<p>On a <strong>weak hit</strong>, roll on the following table according to your stat.</p>\n<table>\n<thead>\n<tr>\n<th>Edge</th>\n<th>Shadow</th>\n<th>Wits</th>\n<th>Weak Hit Result</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>1-45</td>\n<td>1-30</td>\n<td>1-40</td>\n<td>Mark progress and <em>Reveal a Danger</em>.</td>\n</tr>\n<tr>\n<td>46-65</td>\n<td>31-65</td>\n<td>41-55</td>\n<td>Mark progress.</td>\n</tr>\n<tr>\n<td>66-75</td>\n<td>66-90</td>\n<td>56-80</td>\n<td>Choose one: Mark progress or <em>Find an Opportunity</em>.</td>\n</tr>\n<tr>\n<td>76-80</td>\n<td>91-99</td>\n<td>81-99</td>\n<td>Take both: Mark progress and <em>Find an Opportunity</em>.</td>\n</tr>\n<tr>\n<td>81-00</td>\n<td>00</td>\n<td>00</td>\n<td>Mark progress twice and <em>Reveal a Danger</em>.</td>\n</tr>\n</tbody></table>\n",
         "miss": "<p>On a <strong>miss</strong>, <em>Reveal a Danger</em>.</p>\n",
@@ -554,7 +554,7 @@
         "title": "Locate Your Objective",
         "description": "<p>When <strong>your exploration of a site comes to an end</strong>, roll the challenge dice and compare to your progress. Momentum is ignored on this roll.</p>\n",
         "strong": "<p>On a <strong>strong hit</strong>, you locate your objective and the situation favors you. Choose one.</p>\n<ul>\n<li>Make another move now (not a progress move), and add +1.</li>\n<li>Take +1 momentum.</li>\n</ul>\n",
-        "weak": "<p>On a <strong>weak hit</strong>, you locate your objective but face an unforeseen hazard or complication. Envision what you find (<strong>Ask the Oracle</strong> if unsure).</p>\n",
+        "weak": "<p>On a <strong>weak hit</strong>, you locate your objective but face an unforeseen hazard or complication. Envision what you find (<strong>Ask for Inspiration</strong> if unsure).</p>\n",
         "miss": "<p>On a <strong>miss</strong>, your objective falls out of reach, you have been misled about the nature of your objective, or you discover that this site holds unexpected depths. If you continue your exploration, clear all but one filled progress and raise the site’s rank by one (if not already epic).</p>\n"
       },
       "Escape the Depths": {
@@ -581,7 +581,7 @@
       },
       "Advance a Threat": {
         "title": "Advance a Threat",
-        "description": "<p>When <strong>you give ground to a threat through inaction, failure, or delay</strong>, roll on the table below and envision how the change manifests in your world (<em>Ask the Oracle</em> if unsure). </p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Result</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>1-30</td>\n<td>The threat readies its next step, or a new danger looms. If you are in a position to prevent this development, you may attempt to do so. If you succeed, <em>Reach a Milestone</em>. Otherwise, mark menace.</td>\n</tr>\n<tr>\n<td>31-70</td>\n<td>The threat works subtly to advance toward its goal, or the danger escalates. Mark menace.</td>\n</tr>\n<tr>\n<td>71-00</td>\n<td>The threat makes a dramatic and immediate move, or a major event reveals new complications. Mark menace twice.</td>\n</tr>\n</tbody></table>\n<p>On a match, this development also exposes a surprising aspect of the threat’s plan or nature.</p>\n<p>If <strong>you mark the last box on the threat’s menace track</strong>, the threat achieves its goal, or the final dire outcome occurs. You must <em>Forsake Your Vow</em>.</p>\n",
+        "description": "<p>When <strong>you give ground to a threat through inaction, failure, or delay</strong>, roll on the table below and envision how the change manifests in your world (<em>Ask for Inspiration</em> if unsure). </p>\n<table>\n<thead>\n<tr>\n<th>Roll</th>\n<th>Result</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>1-30</td>\n<td>The threat readies its next step, or a new danger looms. If you are in a position to prevent this development, you may attempt to do so. If you succeed, <em>Reach a Milestone</em>. Otherwise, mark menace.</td>\n</tr>\n<tr>\n<td>31-70</td>\n<td>The threat works subtly to advance toward its goal, or the danger escalates. Mark menace.</td>\n</tr>\n<tr>\n<td>71-00</td>\n<td>The threat makes a dramatic and immediate move, or a major event reveals new complications. Mark menace twice.</td>\n</tr>\n</tbody></table>\n<p>On a match, this development also exposes a surprising aspect of the threat’s plan or nature.</p>\n<p>If <strong>you mark the last box on the threat’s menace track</strong>, the threat achieves its goal, or the final dire outcome occurs. You must <em>Forsake Your Vow</em>.</p>\n",
         "oracles": {
           "Advance a Threat": {
             "entry1": "The threat readies its next step, or a new danger looms. If you are in a position to prevent this development, you may attempt to do so. If you succeed, Reach a Milestone. Otherwise, mark menace.",
@@ -688,10 +688,10 @@
         "danger11": "Protective ward or barrier",
         "danger12": "Prophecies reveal a dark fate"
       },
-      "Haunted": {
-        "title": "Haunted",
+      "Harrowed": {
+        "title": "Harrowed",
         "summary": "Restless spirits are bound to this place.",
-        "description": "<p>Within a haunted site, dread, sadness, and fear are palpable. Disturbing sounds and visions lure the unwary and terrorize the vulnerable. Gird your will when you enter this place, for you walk at the boundary of life and death.</p>\n<p>Some lost souls, unaware they have passed, wander the site in search of answers. Others, stricken by eternal grief, seek to set right what caused their death or see their vows fulfilled. But all too often, the denizens of this place are undone by their deaths. They are rage and terror made incarnate, feeling nothing but hate for the living and a hunger for warmth which will never be sated.</p>\n",
+        "description": "<p>Within a harrowed site, dread, sadness, and fear are palpable. Disturbing sounds and visions lure the unwary and terrorize the vulnerable. Gird your will when you enter this place, for you walk at the boundary of life and death.</p>\n<p>Some lost souls, unaware they have passed, wander the site in search of answers. Others, stricken by eternal grief, seek to set right what caused their death or see their vows fulfilled. But all too often, the denizens of this place are undone by their deaths. They are rage and terror made incarnate, feeling nothing but hate for the living and a hunger for warmth which will never be sated.</p>\n",
         "feature1": "Tomb or burial site",
         "feature2": "Blood was spilled here",
         "feature3": "Unnatural mists or darkness",
@@ -1224,7 +1224,7 @@
           "Quest": "The iron shard you carry is a small piece of the outer hull of an Exodus ship. The navigational chart inscribed on its surface only reveals itself when exposed to the light of a specific star. Where is the map purported to lead, and why are you sworn to follow it? Who seeks to claim the map for themselves?"
         },
         "option2": {
-          "Description": "Iron vows are sworn upon totems crafted from the enigmatic metal we call black iron.",
+          "Description": "Iron vows are sworn upon items crafted from the enigmatic metal we call black iron.",
           "Details": "Black iron was first forged by a long-dead civilization. Some say it is a living metal, attuned to the hidden depths of the universe. Remnants of this prized resource are found within ancient sites throughout the Forge. It is resistant to damage and corrosion, but can be molded using superheated plasma at specialized facilities. The Ironsworn carry weapons, armor, or tokens crafted from black iron, and swear vows upon it.",
           "Quest": "A black iron token of special significance has been stolen. What power or authority is bound to this object? Who has taken it?"
         },

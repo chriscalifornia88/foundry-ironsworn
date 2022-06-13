@@ -1044,7 +1044,7 @@
       "abilities": [
         {
           "enabled": true,
-          "description": "<p>You are haunted by someone whose death you caused through your actions or failures. When you consult with their spirit to <em>Secure an Advantage</em> or <em>Gather Information</em>, add +1 and take +2 momentum on a hit. On a weak hit, also <em>Endure Stress</em> (1 stress).</p>\n"
+          "description": "<p>You are harrowed by someone whose death you caused through your actions or failures. When you consult with their spirit to <em>Secure an Advantage</em> or <em>Gather Information</em>, add +1 and take +2 momentum on a hit. On a weak hit, also <em>Endure Stress</em> (1 stress).</p>\n"
         },
         {
           "enabled": false,
@@ -1693,7 +1693,7 @@
       "abilities": [
         {
           "enabled": true,
-          "description": "<p>When you summon a flock of crows and ask a single question, ((rollplus wits)). On a strong hit, you interpret their calls as a helpful omen. Envision the response (<em>Ask the Oracle</em> if unsure) and take +2 momentum. On a weak hit, the crows ignore your question and offer a clue to an unrelated problem or opportunity in this area. Envision what you learn (<em>Ask the Oracle</em> if unsure), and take +1 momentum.</p>\n"
+          "description": "<p>When you summon a flock of crows and ask a single question, ((rollplus wits)). On a strong hit, you interpret their calls as a helpful omen. Envision the response (<em>Ask for Inspiration</em> if unsure) and take +2 momentum. On a weak hit, the crows ignore your question and offer a clue to an unrelated problem or opportunity in this area. Envision what you learn (<em>Ask for Inspiration</em> if unsure), and take +1 momentum.</p>\n"
         },
         {
           "enabled": false,
@@ -1774,7 +1774,7 @@
       "abilities": [
         {
           "enabled": true,
-          "description": "<p>When you surround the remains of a recently deceased intelligent creature with lit candles, and summon its spirit, ((rollplus heart)). Add +1 if you share a bond. On a strong hit, the spirit appears and you may converse for a few minutes. Make moves as appropriate (add +1). On a weak hit, as above, but the spirit also delivers troubling news unrelated to your purpose. Envision what it tells you (<em>Ask the Oracle</em> if unsure) and <em>Endure Stress</em> (1 stress).</p>\n"
+          "description": "<p>When you surround the remains of a recently deceased intelligent creature with lit candles, and summon its spirit, ((rollplus heart)). Add +1 if you share a bond. On a strong hit, the spirit appears and you may converse for a few minutes. Make moves as appropriate (add +1). On a weak hit, as above, but the spirit also delivers troubling news unrelated to your purpose. Envision what it tells you (<em>Ask for Inspiration</em> if unsure) and <em>Endure Stress</em> (1 stress).</p>\n"
         },
         {
           "enabled": false,
@@ -1990,7 +1990,7 @@
       "abilities": [
         {
           "enabled": true,
-          "description": "<p>When you speak a person’s name three times to the wind, ((rollplus wits)). On a strong hit, the wind whispers of this person’s need. Envision what you hear (<em>Ask the Oracle</em> if unsure). If you use this information or fulfill this need when you <em>Compel</em> them, you may reroll any dice (one time only). On a weak hit, as above, but this person’s need creates a troubling dilemma or complication; <em>Endure Stress</em> (1 stress).</p>\n"
+          "description": "<p>When you speak a person’s name three times to the wind, ((rollplus wits)). On a strong hit, the wind whispers of this person’s need. Envision what you hear (<em>Ask for Inspiration</em> if unsure). If you use this information or fulfill this need when you <em>Compel</em> them, you may reroll any dice (one time only). On a weak hit, as above, but this person’s need creates a troubling dilemma or complication; <em>Endure Stress</em> (1 stress).</p>\n"
         },
         {
           "enabled": false,
@@ -2125,7 +2125,7 @@
       "abilities": [
         {
           "enabled": true,
-          "description": "<p>When you walk a wide circle, sprinkling the ground with salt, ((rollplus wits)). On a strong hit, choose two. On a weak hit, choose one.</p>\n<ul>\n<li>When a foe first crosses the boundary, take +1 momentum.</li>\n<li>When you first inflict harm against a foe within the boundary, inflict +1 harm.</li>\n<li>Your ward is ‘likely’ (<em>Ask the Oracle</em>) to trap a foe within the boundary.</li>\n</ul>\n"
+          "description": "<p>When you walk a wide circle, sprinkling the ground with salt, ((rollplus wits)). On a strong hit, choose two. On a weak hit, choose one.</p>\n<ul>\n<li>When a foe first crosses the boundary, take +1 momentum.</li>\n<li>When you first inflict harm against a foe within the boundary, inflict +1 harm.</li>\n<li>Your ward is ‘likely’ (<em>Ask for Inspiration</em>) to trap a foe within the boundary.</li>\n</ul>\n"
         },
         {
           "enabled": false,
@@ -2206,7 +2206,7 @@
       "abilities": [
         {
           "enabled": true,
-          "description": "<p>You are the bearer of a mystical archive. When you <em>Secure an Advantage</em> or <em>Gather Information</em> using lore recalled from your studies, add +1. If you have a few hours to search the archive, add +2. On a hit, envision the obscure but helpful knowledge you put to use (<em>Ask the Oracle</em> if unsure), and take +1 momentum.</p>\n"
+          "description": "<p>You are the bearer of a mystical archive. When you <em>Secure an Advantage</em> or <em>Gather Information</em> using lore recalled from your studies, add +1. If you have a few hours to search the archive, add +2. On a hit, envision the obscure but helpful knowledge you put to use (<em>Ask for Inspiration</em> if unsure), and take +1 momentum.</p>\n"
         },
         {
           "enabled": false,

@@ -10,7 +10,7 @@ const THEME_IMAGES = {
   Corrupted: 'icons/magic/unholy/beam-impact-purple.webp',
   Fortified: 'icons/environment/settlement/watchtower-cliff.webp',
   Hallowed: 'icons/magic/holy/angel-wings-gray.webp',
-  Haunted: 'icons/creatures/magical/spirit-undead-horned-blue.webp',
+  Harrowed: 'icons/creatures/magical/spirit-undead-horned-blue.webp',
   Infested: 'icons/creatures/eyes/icy-cluster-blue.webp',
   Ravaged: 'icons/environment/settlement/building-rubble.webp',
   Wild: 'icons/magic/nature/root-vines-grow-brown.webp',

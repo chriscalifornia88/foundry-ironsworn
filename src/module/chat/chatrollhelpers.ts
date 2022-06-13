@@ -239,6 +239,7 @@ export async function createIronswornChatRoll(params: RollMessageParams) {
     ...momentumProps,
     ...params,
   }
+
   const content = await renderTemplate('systems/foundry-ironsworn/templates/chat/roll.hbs', renderData)
 
   const messageData = {
@@ -333,7 +334,6 @@ export async function createIronswornDenizenChat(params: DenizenChatInput) {
 }
 
 export async function rollAndDisplayOracleResult(table?: RollTable, packName?: string): Promise<string | undefined> {
-  console.log(table)
   if (!table) {
     return undefined
   }
@@ -364,6 +364,10 @@ export async function rollAndDisplayOracleResult(table?: RollTable, packName?: s
   const pathNames = pathElements.map((x) => x.displayName)
   pathNames.shift() // root node has no display name
   pathNames.pop() // this is the one we rolled, it gets the main title
+
+  console.log('beans1', oracleTreeRoot);
+  console.log('beans2', pathElements);
+  console.log('beans3', pathNames);
 
   // Render the chat message content
   const renderData = {

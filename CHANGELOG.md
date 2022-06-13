@@ -72,7 +72,7 @@
 
 ## 1.14.0
 
-- Bump dataforged and fix the missing 50/50 oracle button in the chat card for "Ask the Oracle"
+- Bump dataforged and fix the missing 50/50 oracle button in the chat card for "Ask for Inspiration"
 - Oracle search: also match against Dataforged aliases
 
 ## 1.13.0
@@ -742,7 +742,7 @@
 
 ## 0.2.5
 
-- Added roll tables from the 'Ask the Oracle' move ([#19](https://github.com/ben/foundry-ironsworn/issues/19))
+- Added roll tables from the 'Ask for Inspiration' move ([#19](https://github.com/ben/foundry-ironsworn/issues/19))
 
 ## 0.2.4
 

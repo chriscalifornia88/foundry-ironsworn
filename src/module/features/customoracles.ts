@@ -48,6 +48,8 @@ export async function createStarforgedOracleTree(): Promise<OracleTreeNode> {
     rootNode.children.push(await walkOracleCategory(category, getFoundrySFTableByDfId))
   }
 
+  console.log('rn', rootNode);
+
   // Add in custom oracles from a well-known directory
   await augmentWithFolderContents(rootNode)
 
@@ -60,6 +62,26 @@ async function walkOracleCategory(
   cat: IOracleCategory,
   tableGetter: typeof getFoundrySFTableByDfId
 ): Promise<OracleTreeNode> {
+  switch(cat.$id) {
+    case "Starforged/Oracles/Moves":
+      if(cat.Oracles) {
+        for (const oracle of cat.Oracles) {
+          if(oracle.$id === 'Starforged/Oracles/Moves/Ask_the_Oracle') {
+            oracle.Name = 'Ask for Inspiration';
+          }
+        }
+      }
+      break;
+    case "Starforged/Oracles/Character_Creation":
+      if(cat.Oracles) {
+        cat.Oracles = cat.Oracles.filter((oracle) => {
+          // Remove this section from the UI
+          return oracle.$id !== 'Starforged/Oracles/Character_Creation/Background_Assets';
+        });
+      }
+      break;
+  }
+
   const node: OracleTreeNode = {
     ...emptyNode(),
     dataforgedNode: cat,
