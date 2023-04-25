@@ -4,16 +4,16 @@
   "description": "An implementation of the Ironsworn and Starforged systems, by Shawn Tomkin.",
   "license": "LICENSE.txt",
   "version": "1.21.5",
-  "url": "https://github.com/ben/foundry-ironsworn",
-  "manifest": "https://github.com/ben/foundry-ironsworn/releases/latest/download/system.json",
-  "download": "https://github.com/ben/foundry-ironsworn/releases/download/1.21.5/ironsworn.zip",
+  "url": "https://github.com/chriscalifornia88/foundry-ironsworn",
+  "manifest": "https://github.com/chriscalifornia88/foundry-ironsworn/releases/latest/download/system.json",
+  "download": "https://github.com/chriscalifornia88/foundry-ironsworn/releases/download/1.21.5/ironsworn.zip",
   "compatibility": {
     "minimum": 10,
     "verified": 10
   },
   "authors": [
     {
-      "name": "Ben Straub",
+      "name": "Ben Straub (Modified by Christian Augustine)",
       "url": "https://ben.straub.cc",
       "email": "ben@straub.cc",
       "discord": "benstraub#3706",
