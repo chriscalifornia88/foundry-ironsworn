@@ -8,7 +8,7 @@ const THEME_IMAGES = {
 	Corrupted: 'icons/magic/unholy/beam-impact-purple.webp',
 	Fortified: 'icons/environment/settlement/watchtower-cliff.webp',
 	Hallowed: 'icons/magic/holy/angel-wings-gray.webp',
-	Haunted: 'icons/creatures/magical/spirit-undead-horned-blue.webp',
+	Harrowed: 'icons/creatures/magical/spirit-undead-horned-blue.webp',
 	Infested: 'icons/creatures/eyes/icy-cluster-blue.webp',
 	Ravaged: 'icons/environment/settlement/building-rubble.webp',
 	Wild: 'icons/magic/nature/root-vines-grow-brown.webp'
@@ -19,7 +19,7 @@ const THEME_IDS = {
 	Corrupted: 'pKCYCvdI2WjjKsjY',
 	Fortified: 'ONZWFYrqxgFIzppP',
 	Hallowed: 'zhOq6bjCvYhXkMQB',
-	Haunted: '9BtnJYn9vXBGEV5R',
+	Harrowed: '9BtnJYn9vXBGEV5R',
 	Infested: 'H5aJvBKwPrbEnzMe',
 	Ravaged: 'iDOVA8797p4kYar7',
 	Wild: 'v3jYuNrr1Jt4TzNZ'

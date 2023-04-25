@@ -202,8 +202,8 @@
 		"Edit": "Edit",
 		"OpenCompendium": "Open Compendium",
 		"ConfirmDelete": "Are you sure? This cannot be undone.",
-		"RequiresLocationType": "This oracle requires a location type to be selected.",
-		"RollOracleTable": "Roll oracle: <i>{title}</i>",
+		"RequiresLocationType": "This table requires a location type to be selected.",
+		"RollOracleTable": "Roll inspiration: <i>{title}</i>",
 		"RollMove": "Roll move: <i>{title}</i>",
 		"PageReference": "p. {page}",
 		"PlanetType": "Type of planet",
@@ -224,7 +224,7 @@
 		"StarforgedTools": "Starforged Tools",
 		"IronswornTools": "Ironsworn Tools",
 		"Region": "Region",
-		"RegionTip": "This sets the default region for locations in this scene. It affects the outcomes of some location oracles.",
+		"RegionTip": "This sets the default region for locations in this scene. It affects the outcomes of some location tables.",
 		"REGION": {
 			"Terminus": "Terminus",
 			"Outlands": "Outlands",
@@ -293,7 +293,7 @@
 			},
 			"Tools": {
 				"Name": "Character Tools",
-				"Hint": "Which set of moves and oracles will appear when opening a character sheet.",
+				"Hint": "Which set of moves and tables will appear when opening a character sheet.",
 				"Sheet": "Match sheet"
 			},
 			"SharedSupply": {
@@ -329,7 +329,7 @@
 			},
 			"DataforgedIronswornMoves": {
 				"Name": "(Beta) New Ironsworn move-sheet UI",
-				"Hint": "If on, uses the Starforged-style UI for the Ironsworn move/oracle sheet, and allows custom entries and hooks for customization."
+				"Hint": "If on, uses the Starforged-style UI for the Ironsworn move/inspiration sheet, and allows custom entries and hooks for customization."
 			},
 			"ProgressMarkAnimation": {
 				"Name": "Enable progress mark animation",
@@ -338,7 +338,7 @@
 		},
 		"First Start": {
 			"Welcome": "Welcome",
-			"Intro": "Please choose which system you'll be primarily using. This sets sheet and move/oracle defaults; more detailed options are available in the settings.",
+			"Intro": "Please choose which system you'll be primarily using. This sets sheet and move/inspiration defaults; more detailed options are available in the settings.",
 			"SettingTruths": "Setting Truths",
 			"SettingTruth": "Setting Truth"
 		},
@@ -348,15 +348,15 @@
 				"Title": "Welcome to Ironsworn",
 				"Description": "Overview of Ironsworn & Starforged system",
 				"WelcomeTitle": "Welcome",
-				"WelcomeContent": "<p>Welcome to Ironsworn &amp; Starforged! This tour will help you find where all the things are that will help you set up and play your game.</p><p>At this point you will have seen the game-selection dialog, which configures the default character sheet, moves, and oracles. Let&#39;s look at where the other system features can be found.</p>",
+				"WelcomeContent": "<p>Welcome to Ironsworn &amp; Starforged! This tour will help you find where all the things are that will help you set up and play your game.</p><p>At this point you will have seen the game-selection dialog, which configures the default character sheet, moves, and inspiration tables. Let&#39;s look at where the other system features can be found.</p>",
 				"ActorTabTitle": "Creating a Character",
 				"ActorTabContent": "<p>At some point, you&#39;ll want to create a character. To do that, navigate to the &quot;<i class=\"fas fa-user\"></i> Actors&quot; tab and click this button.</p>",
 				"CharacterCreateTitle": "Creating a Character",
 				"CharacterCreateContent": "<p>This button will create a primary character, which is all you need to get started. As your game progresses, you may need the other types here to organize things.</p>",
 				"CompendiumTitle": "Maps",
 				"CompendiumContent": "<p>You&#39;ll probably want a map of the Ironlands or a sector of the Forge. You can create your own scene for this, or you can use one of ours. Open one of these compendiums and drag a map to your &quot;<i class=\"fas fa-map\"></i> Scenes&quot; area.</p>",
-				"OracleToolTitle": "Oracles",
-				"OracleToolContent": "<p>No game of Ironsworn or Starforged would be complete without oracles. This button will pop up a window with all the oracles in your chosen game. The oracles are also available from the character sheet.</p>",
+				"OracleToolTitle": "Inspiration Tables",
+				"OracleToolContent": "<p>No game of Ironsworn or Starforged would be complete without inspiration. This button will pop up a window with all the inspiration tables in your chosen game. The tables are also available from the character sheet.</p>",
 				"ToursTitle": "Next Steps",
 				"ToursContent": "<p>That&#39;s it for now! For more information on other topics, check out the Tour Management area in the settings tabs. And if you want to get in contact, check out the <code>#foundry-vtt</code> channel in the <a href=\"https://discord.gg/8bRuZwK\">Ironsworn Discord</a>.</p><p>Enjoy!</p>"
 			},
@@ -417,22 +417,22 @@
 			"MoveSheet": {
 				"Title": "",
 				"Description": "",
-				"SheetTitle": "Move/Oracle Sheet",
-				"SheetContent": "<p>This is the window that provides easy access to moves and oracles.</p>",
+				"SheetTitle": "Move/Inspiration Sheet",
+				"SheetContent": "<p>This is the window that provides easy access to moves and inspiration tables.</p>",
 				"MoveCategoryTitle": "Move Categories",
 				"MoveCategoryContent": "<p>Click on a category title to expand that category and show all of the moves. Click on one of the moves to expand its description.</p>",
 				"MoveButtonsTitle": "Move Shortcuts",
-				"MoveButtonsContent": "<p>Up here you&#39;ll see shortcut buttons.</p><p>The first one is a shortcut to &quot;roll this move,&quot; and will open the rolling dialog with some details pre-filled for you. It&#39;s only available if this move has a roll associated with it -- some, like Pay the Price, do not have an action/challenge roll, so this button will be disabled.</p><p>The second one is a shortcut to &quot;roll the oracle,&quot; and immediately rolls on an oracle table. It&#39;s only available if the move has exactly one oracle to roll.</p><p>The third one sends a copy of the description to the chat sidebar.</p>",
+				"MoveButtonsContent": "<p>Up here you&#39;ll see shortcut buttons.</p><p>The first one is a shortcut to &quot;roll this move,&quot; and will open the rolling dialog with some details pre-filled for you. It&#39;s only available if this move has a roll associated with it -- some, like Pay the Price, do not have an action/challenge roll, so this button will be disabled.</p><p>The second one is a shortcut to &quot;roll inspiration,&quot; and immediately rolls on an inspiration table. It&#39;s only available if the move has exactly one inspiration to roll.</p><p>The third one sends a copy of the description to the chat sidebar.</p>",
 				"MoveLinkTitle": "Move Links",
 				"MoveLinkContent": "<p>Clicking on a link to another move will expand it and scroll it into view.</p>",
-				"OraclesTabTitle": "Oracles Tab",
-				"OraclesTabContent": "<p>The second tab displays oracles, random tables to spark your inspiration.</p>",
-				"OracleCategoryTitle": "Oracle Tree",
-				"OracleCategoryContent": "<p>The oracles are organized into a directory structure. Click anywhere on a category line to expand it and display its contents.</p>",
-				"OracleRowTitle": "Oracle Controls",
-				"OracleRowContent": "<p>Click the <i class=\"fas fa-eye\"></i> icon to display a preview of the oracle table, or click anywhere else on the line to draw a result from the table and display it in chat.</p>",
-				"OracleChatMessageTitle": "Oracle Results",
-				"OracleChatMessageContent": "<p>When you roll an oracle, a chat card is displayed. The highlighted row is the rolled result, and the adjacent rolls are also displayed.</p><p>If you hover your mouse over the message, you&#39;ll see buttons appear, which let you copy a result&#39;s text to your clipboard, or re-roll on the same oracle table.</p>",
+				"OraclesTabTitle": "Inspiration Tab",
+				"OraclesTabContent": "<p>The second tab displays inspiration tables, random tables to spark your inspiration.</p>",
+				"OracleCategoryTitle": "Inspiration Tree",
+				"OracleCategoryContent": "<p>The inspirations are organized into a directory structure. Click anywhere on a category line to expand it and display its contents.</p>",
+				"OracleRowTitle": "Inspiration Controls",
+				"OracleRowContent": "<p>Click the <i class=\"fas fa-eye\"></i> icon to display a preview of the inspiration table, or click anywhere else on the line to draw a result from the table and display it in chat.</p>",
+				"OracleChatMessageTitle": "Inspiration Results",
+				"OracleChatMessageContent": "<p>When you roll inspiration, a chat card is displayed. The highlighted row is the rolled result, and the adjacent rolls are also displayed.</p><p>If you hover your mouse over the message, you&#39;ll see buttons appear, which let you copy a result&#39;s text to your clipboard, or re-roll on the same table.</p>",
 				"EndTitle": "Move Sheet",
 				"EndContent": "<p>That&#39;s all for now. Look for the <i class=\"fa-solid fa-circle-question\"></i> button in other sheet title bars for more information on how they work.</p>"
 			}
@@ -454,7 +454,7 @@
 				"option2": "The weather is bleak. Rain and wind sweep in from the ocean. The winters are long and bitter. One of the first settlers complained, \"Only those made of iron dare live in this foul place\" – and thus our land was named.",
 				"quest2": "The harvest fell short. The unrelenting snows left the village isolated. The food is running out. What will you do to see these people through this harsh season?",
 				"option3": "Inscrutable metal pillars are found throughout the land. They are iron gray, and smooth as river stone. No one knows their purpose. Some say they are as old as the world. Some, such as the Iron Priests, worship them and swear vows upon them. Most make the warding sign and hurry along their way when they happen across one. The pillars do not tarnish, and even the sharpest blade cannot mark them.",
-				"quest3": "Your dreams are haunted by visions of a pillar which stands in an unfamiliar landscape. What do you see? Why are you sworn to seek it out?"
+				"quest3": "Your dreams are harrowed by visions of a pillar which stands in an unfamiliar landscape. What do you see? Why are you sworn to seek it out?"
 			},
 			"Legacies": {
 				"name": "Legacies",
@@ -463,7 +463,7 @@
 				"option2": "Other humans sailed here from the Old World untold years ago, but all that is left of them is a savage, feral people we call the broken. Is their fate to become our own?",
 				"quest2": "You find a child—one of the broken. It is wounded, and hunted by others of its kind. Do you protect it, even at the risk of inviting the wrath of the broken tribes?",
 				"option3": "Before the Ironlanders, before even the firstborn, another people lived here. Their ancient ruins are found throughout the Ironlands.",
-				"quest3": "Miners uncovered an underground ruin. Thereafter, the people of the settlement are haunted by strange dreams. The ruins call to them, they say. Several have disappeared in that dark, ancient place – including someone important to you."
+				"quest3": "Miners uncovered an underground ruin. Thereafter, the people of the settlement are harrowed by strange dreams. The ruins call to them, they say. Several have disappeared in that dark, ancient place – including someone important to you."
 			},
 			"Communities": {
 				"name": "Communities",
@@ -541,7 +541,7 @@
 		"OracleCategories": {
 			"Access": "Access",
 			"Action and Theme": "Action and Theme",
-			"Ask the Oracle": "Ask the Oracle",
+			"Ask for Inspiration": "Ask for Inspiration",
 			"Basic Form": "Basic Form",
 			"Challenge Rank": "Challenge Rank",
 			"Chaotic": "Chaotic",
@@ -562,7 +562,7 @@
 			"Fortified": "Fortified",
 			"Furnace": "Furnace",
 			"Grave": "Grave",
-			"Haunted": "Haunted",
+			"Harrowed": "Harrowed",
 			"Ice": "Ice",
 			"Infested": "Infested",
 			"Inhabited": "Inhabited",
@@ -611,7 +611,7 @@
 			"Vaults": "Vaults",
 			"Vital": "Vital",
 			"Zones": "Zones",
-			"Custom": "Custom Oracles"
+			"Custom": "Custom Tables"
 		},
 		"Asset Categories": {
 			"Custom": "Custom Assets",
@@ -661,10 +661,10 @@
 			}
 		},
 		"ROLLTABLE": {
-			"TypeOracle": "Oracle"
+			"TypeOracle": "Inspiration Table"
 		},
 		"ROLLTABLES": {
-			"TypeOracle": "Oracles"
+			"TypeOracle": "Inspiration Tables"
 		},
 		"SCENE": {
 			"TypeSector": "Sector"
