@@ -143,11 +143,10 @@ const ACTOR_TYPE_HANDLERS: Record<string, ActorTypeHandler> = {
 
 		const debilities = [
 			'corrupted',
-			'cursed',
 			'encumbered',
 			'maimed',
 			'shaken',
-			'tormented',
+			'distressed',
 			'unprepared',
 			'wounded',
 			'permanentlyharmed',

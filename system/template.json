@@ -32,7 +32,7 @@
 				"encumbered": false,
 				"maimed": false,
 				"shaken": false,
-				"tormented": false,
+				"distressed": false,
 				"unprepared": false,
 				"wounded": false,
 				"permanentlyharmed": false,

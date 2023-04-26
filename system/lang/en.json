@@ -113,7 +113,7 @@
 			"Unprepared": "unprepared",
 			"Permanentlyharmed": "permanently harmed",
 			"Traumatized": "traumatized",
-			"Tormented": "tormented",
+			"Distressed": "distressed",
 			"Doomed": "doomed",
 			"Indebted": "indebted",
 			"Cursed": "cursed",
@@ -134,7 +134,7 @@
 			"Maimed": "maimed",
 			"Corrupted": "corrupted",
 			"Cursed": "cursed",
-			"Tormented": "tormented"
+			"Distressed": "distressed"
 		},
 		"Conditions": "Conditions",
 		"Condition": "Condition",
@@ -494,11 +494,11 @@
 			},
 			"Mysticism": {
 				"name": "Mysticism",
-				"option1": "Some still find comfort in the old ways. They call on mystics to divine the fortune of their newborn, or ask them to perform rituals to invoke a bountiful harvest. Others act out of fear against those who they suspect of having power. However, most folk believe true magic—if it ever existed—is lost to us now.",
+				"option1": "Some still find comfort in the old ways. They call on mystics to divine the fortune of their newborn, or ask them to perform scenes to invoke a bountiful harvest. Others act out of fear against those who they suspect of having power. However, most folk believe true magic—if it ever existed—is lost to us now.",
 				"quest1": "Someone close to you is accused of cursing a settlement, causing fields to go fallow and cattle to become sick. What is the evidence of this? Will you defend this person and uncover the true cause of the settlement’s troubles?",
 				"option2": "Magic is rare and dangerous, but those few who wield the power are truly gifted.",
 				"quest2": "You have heard stories of someone who wields true power. They live in an isolated settlement far away. Who told you of this mystic? Are they feared or respected? Why do you swear to seek them out?",
-				"option3": "Magic courses through this land as the rivers flow through the hills. The power is there for those who choose to harness it, and even the common folk often know a helpful ritual or two.",
+				"option3": "Magic courses through this land as the rivers flow through the hills. The power is there for those who choose to harness it, and even the common folk often know a helpful song or two.",
 				"quest3": "Someone you love walked the paths of power, and succumbed to it. Who are they? Why did they fall into darkness? Where are they now? Do you seek to save them or defeat them?"
 			},
 			"Religion": {
@@ -622,15 +622,11 @@
 				},
 				"Path": {
 					"Title": "Path",
-					"Description": "Paths represent your background, interests, training, and skills. They provide mechanical and narrative advantages, but also reflect who you are and how you interact with the world. For example, a **Ritualist** would likely have a different outlook than a **Veteran**. Choosing both those paths can reflect an evolution of your character or an interesting background."
+					"Description": "Paths represent your background, interests, training, and skills. They provide mechanical and narrative advantages, but also reflect who you are and how you interact with the world."
 				},
 				"Combat Talent": {
 					"Title": "Combat Talent",
 					"Description": "*Ironsworn* characters are assumed to be skilled fighters. Even without a combat talent, you can wield weapons and perform combat moves (page 78). A combat talent reflects a particular area of expertise, and gives you additional options and bonuses.\n\nCombat talent assets typically require you to wield a specific weapon, as noted in the asset text. For example, if you are a **Shield-Bearer** and don’t have a shield at the ready, you can’t use the asset’s abilities."
-				},
-				"Ritual": {
-					"Title": "Ritual",
-					"Description": "Magic in *Ironsworn* is cast through rituals which help support your actions or act as unique moves. Like all assets, rituals can be selected as you gain experience and can be upgraded over time to make them more flexible or powerful.\n\nAll rituals utilize a move as their default marked ability. You must make this move and the associated action roll to trigger the effect. Any secondary abilities you gain by upgrading the asset are dependent on performing the ritual described as the default ability."
 				}
 			},
 			"Starforged": {

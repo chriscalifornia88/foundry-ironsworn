@@ -22,7 +22,7 @@
 			class="flexcol"
 			:impacts="[
 				{ name: 'doomed' },
-				{ name: 'tormented' },
+				{ name: 'distressed' },
 				{ name: 'indebted' }
 			]" />
 

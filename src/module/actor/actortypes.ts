@@ -22,7 +22,7 @@ interface CharacterDataSourceData {
 		encumbered: boolean
 		maimed: boolean
 		shaken: boolean
-		tormented: boolean
+		distressed: boolean
 		unprepared: boolean
 		wounded: boolean
 		permanentlyharmed: boolean

@@ -16,7 +16,7 @@
 					"Quest": "You are a descendant of the Skulde. Because of your heritage, your family has long borne the distrust of your fellow Ironlanders. Now, a small force of Skulde have landed on our shores. Are they the harbinger of an invasion? Where do your loyalties lie?"
 				},
 				{
-					"Truth": "The sickness moved like a horrible wave across the Old World, killing all in its path. Thousands fled aboard ships. However, the plague could not be outrun. On many ships, the disease was contained through ruthless measures—tossing overboard any who exhibited the slightest symptom. Other ships were forever lost. In the end, those who survived found the Ironlands and made it their new home. Some say we will forever be cursed by those we left behind.",
+					"Truth": "The sickness moved like a horrible wave across the Old World, killing all in its path. Thousands fled aboard ships. However, the plague could not be outrun. On many ships, the disease was contained through ruthless measures—tossing overboard any who exhibited the slightest symptom. Other ships were forever lost. In the end, those who survived found the Ironlands and made it their new home.",
 					"Quest": "A settlement is stricken by disease. Though this sickness bears some similarities to the Old World plague, it doesn’t kill its victims. Instead, it changes them. How does this disease manifest? Why do you swear to seek out a cure?"
 				},
 				{
@@ -55,7 +55,7 @@
 			"Options": [
 				{
 					"Truth": "We are the first humans to walk these lands.",
-					"Quest": "In the writings of one of the first settlers, there is a description of a glade in the heart of the Deep Wilds. The spirits of this place are said to grant a miraculous blessing. What boon does it bestow?"
+					"Quest": "In the writings of one of the first settlers, there is a description of a glade in the heart of the Deep Wilds. What boon does it bestow?"
 				},
 				{
 					"Truth": "Other humans sailed here from the Old World untold years ago, but all that is left of them is a savage, feral people we call the broken. Is their fate to become our own?",
@@ -75,7 +75,7 @@
 			},
 			"Options": [
 				{
-					"Truth": "We are few in number in this accursed land. Most rarely have contact with anyone outside our own small steading or village, and strangers are viewed with deep suspicion.",
+					"Truth": "We are few in number in this terrible land. Most rarely have contact with anyone outside our own small steading or village, and strangers are viewed with deep suspicion.",
 					"Quest": "In the dead of winter, a desperate man arrives at a snowbound steading. He is wounded, hungry, and nearly frozen to death. His family has been taken. By whom? Will you brave the merciless winter to save them?"
 				},
 				{
@@ -127,48 +127,6 @@
 				{
 					"Truth": "Our warbands are rallied to strike at our enemies or defend our holdings. Though not nearly as impressive as the armies that once marched across the Old World, these forces are as well-trained and equipped as their communities can manage. The banners of the warbands are adorned with depictions of their Old World history and Ironland victories.",
 					"Quest": "A warband was wiped out in a battle against an overwhelming enemy. What is your connection to this band? Who defeated them? Will you carry their banner on a quest for vengeance, or do you vow to see it brought home to a place of honor?"
-				}
-			]
-		},
-		{
-			"Name": "Mysticism",
-			"Source": {
-				"Name": "Ironsworn Rulebook",
-				"Page": "127"
-			},
-			"Options": [
-				{
-					"Truth": "Some still find comfort in the old ways. They call on mystics to divine the fortune of their newborn, or ask them to perform rituals to invoke a bountiful harvest. Others act out of fear against those who they suspect of having power. However, most folk believe true magic—if it ever existed—is lost to us now.",
-					"Quest": "Someone close to you is accused of cursing a settlement, causing fields to go fallow and cattle to become sick. What is the evidence of this? Will you defend this person and uncover the true cause of the settlement’s troubles?"
-				},
-				{
-					"Truth": "Magic is rare and dangerous, but those few who wield the power are truly gifted.",
-					"Quest": "You have heard stories of someone who wields true power. They live in an isolated settlement far away. Who told you of this mystic? Are they feared or respected? Why do you swear to seek them out?"
-				},
-				{
-					"Truth": "Magic courses through this land as the rivers flow through the hills. The power is there for those who choose to harness it, and even the common folk often know a helpful ritual or two.",
-					"Quest": "Someone you love walked the paths of power, and succumbed to it. Who are they? Why did they fall into darkness? Where are they now? Do you seek to save them or defeat them?"
-				}
-			]
-		},
-		{
-			"Name": "Religion",
-			"Source": {
-				"Name": "Ironsworn Rulebook",
-				"Page": "127"
-			},
-			"Options": [
-				{
-					"Truth": "A few Ironlanders still make signs or mumble prayers out of habit or tradition, but most believe the gods long ago abandoned us.",
-					"Quest": "A charismatic Ironlander, encouraging her followers to renounce the vestiges of Old World religions, proposes a new path for this new world. What doctrine does she teach? What does she seek to achieve? Are you sworn to aid or stop her?"
-				},
-				{
-					"Truth": "The people honor old gods and new. In this harsh land, a prayer is a simple but powerful comfort.",
-					"Quest": "An Ironlander is determined to make a pilgrimage into dangerous lands. What holy place do they seek? Why do you swear to aid them on this journey? Who seeks to stop them and why?"
-				},
-				{
-					"Truth": "Our gods are many. They make themselves known through manifestations and miracles. Some say they even secretly walk among us. The priests convey the will of the gods and hold sway over many communities.",
-					"Quest": "You bear the mark of a god. What is it? The priests declare this as a sign you are chosen to fulfill a destiny. Do you accept this fate, and swear to see it through, or are you determined to see it undone? What force opposes you?"
 				}
 			]
 		},
@@ -231,7 +189,7 @@
 				},
 				{
 					"Truth": "The dead do not rest in the Ironlands. At night we light torches, scatter salt, and post sentries at the gate. It is not enough. They are coming.",
-					"Quest": "A group of Ironlanders establish a settlement in a territory cursed by a malevolent horror. What evil plagues this land? Why are the Ironlanders so intent on settling here? Will you aid them, or attempt to force them to give up this foolish undertaking?"
+					"Quest": "A group of Ironlanders establish a settlement in a dangerous territory. What challenges will they face? Why are the Ironlanders so intent on settling here? Will you aid them, or attempt to force them to give up this foolish undertaking?"
 				}
 			]
 		}
