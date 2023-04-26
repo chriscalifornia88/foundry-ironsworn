@@ -46,7 +46,7 @@
     {
       "type": "screenshot",
       "url": "https://user-images.githubusercontent.com/39902/196737036-155657a7-2e4a-4b0a-beec-f4be2b2465e2.jpg",
-      "caption": "Starforged assets and oracles"
+      "caption": "Starforged assets and tables"
     },
     {
       "type": "screenshot",
@@ -86,7 +86,7 @@
     },
     {
       "name": "ironswornoracles",
-      "label": "Ironsworn Oracles",
+      "label": "Ironsworn Inspiration Tables",
       "system": "foundry-ironsworn",
       "path": "packs/ironsworn-oracles.db",
       "type": "RollTable"
@@ -163,7 +163,7 @@
     },
     {
       "name": "starforgedoracles",
-      "label": "Starforged Oracles",
+      "label": "Starforged Inspiration Tables",
       "system": "foundry-ironsworn",
       "path": "packs/starforged-oracles.db",
       "type": "RollTable"
