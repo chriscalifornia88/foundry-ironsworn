@@ -196,76 +196,6 @@
 			"Character": "If you chase down outlaws, you might be a BOUNTY HUNTER. If you are skilled at getting in and out of protected places and systems, you might be an AGENT. If you are on the run from a power or authority, you mght be a FUGITIVE. If you have connections within the criminal underworld, you might be a SCOUNDREL."
 		},
 		{
-			"Name": "Religion",
-			"Table": [
-				{
-					"Chance": 33,
-					"Description": "Our gods failed us. We left them behind.",
-					"Details": "The Exodus was a tipping point. The gods offered no help to the billions who died in the cataclysm, and spirituality has little meaning in the Forge. Most now see religion as a useless relic of our past. But the search for meaning continues, and many are all-too-willing to follow a charismatic leader who claims to offer a better way.",
-					"Quest Starter": "A charismatic leader claims to have harnessed a technology which offers new hope to the people of the Forge. What is this innovation? What is your relationship to this person or their followers? What grave danger do they pose?"
-				},
-				{
-					"Chance": 67,
-					"Description": "Our faith is as diverse as our people.",
-					"Details": "Many have no religion, or offer an occasional prayer out of habit. Others pay homage to the gods of our forebears as a way of connecting to their roots. Some idealize the natural order of the universe, and see the divine in the gravitational dance of stars or the complex mechanisms of a planetary ecosystem. And many now worship the Primordials—gods of a fallen people who once dwelt within the Forge.",
-					"Quest Starter": "A cult seeks to take control of a site reputed to hold a Primordial artifact. What holy object do they seek? Why are you sworn to stop them?"
-				},
-				{
-					"Chance": 100,
-					"Description": "Three dominant religious orders, the Triumvirate, battle for influence and power within the Forge.",
-					"Details": "Our communities are often sworn to serve one of the three doctrines of the Triumvirate. For many, faith offers purpose and meaning. But it also divides us. Throughout our brief history in the Forge, the leaders of the Triumvirate have pitted us against each other. For this reason, some are apostates who disavow these religions and follow a different path.",
-					"Quest Starter": "You bear the mark of one of the gods of the Triumvirate. What is it? Priests declare this as a sign you are chosen to fulfill a destiny. Do you accept this fate, and swear to see it through, or are you determined to see it undone? What force opposes you?"
-				}
-			],
-			"Character": "What is your relationship to religion? If you are an ardent follower of a god or creed, you might be a DEVOTANT."
-		},
-		{
-			"Name": "Magic",
-			"Table": [
-				{
-					"Chance": 33,
-					"Description": "Magic does not exist.",
-					"Details": "Some look to superstition and age-old traditions for comfort in this unforgiving galaxy. But that is foolishness. What some call magic is simply a product of technologies or natural forces we aren’t yet equipped to understand.",
-					"Quest Starter": "An ancient technological relic unleashes a power indistinguishable from magic. What is the origin of this artifact? What ability does it grant? Are you sworn to protect or destroy it?"
-				},
-				{
-					"Chance": 67,
-					"Description": "Supernatural powers are wielded by those rare people we call paragons.",
-					"Details": "While not magic in the truest sense, the abilities of the paragons are as close to magic as we can conjure.\n\nThese powers are born of:",
-					"Table": [
-						{
-							"Chance": 20,
-							"Description": "Genetic engineering"
-						},
-						{
-							"Chance": 40,
-							"Description": "Psychic experimentation"
-						},
-						{
-							"Chance": 60,
-							"Description": "Evolutionary mutations"
-						},
-						{
-							"Chance": 80,
-							"Description": "Magitech augmentations"
-						},
-						{
-							"Chance": 100,
-							"Description": "Ancient knowledge held by secretive orders"
-						}
-					],
-					"Quest Starter": "A young paragon wields incredible power, but cannot control it. They have been shunned by family and friends. They are also hunted by a person or organization who seeks to use them as a weapon. Why are you sworn to protect the paragon? What fabled location might offer a new home for them?"
-				},
-				{
-					"Chance": 100,
-					"Description": "Unnatural energies flow through the Forge. Magic and science are two sides of the same coin.",
-					"Details": "Soon after our arrival, some displayed the ability to harness the Forge's energies. Today, mystics invoke this power to manipulate matter or see beyond the veils of our own universe. But this can be a corrupting force, and the most powerful mystics are respected and feared in equal measure.",
-					"Quest Starter": "Someone you love has been corrupted by the powers of the Forge. Why did they fall into darkness? Where are they now? Do you seek to save them or defeat them?"
-				}
-			],
-			"Character": "If magic is an aspect of your setting, how does your character and their culture view these unnatural abilities? If you possess supernatural powers, you might be an EMPATH, FIREBRAND, KINETIC, SEER, or SHADE."
-		},
-		{
 			"Name": "Communication and Data",
 			"Table": [
 				{
@@ -422,30 +352,6 @@
 				}
 			],
 			"Character": "Have you had any notable encounters with precursor vaults, relics, or tech? If you are an expert in ancient lore, you might be an LORE HUNTER. If you pick the bones of these places, you might be a SCAVENGER."
-		},
-		{
-			"Name": "Horrors",
-			"Table": [
-				{
-					"Chance": 33,
-					"Description": "Put enough alcohol in a spacer, and they’ll tell you stories of ghost ships crewed by vengeful undead. It’s nonsense.",
-					"Details": "Within the Forge, space and time are as mutable and unstable as a flooding river. When reality can't be trusted, we are bound to encounter unsettling phenomenon.",
-					"Quest Starter": "You receive urgent distress calls from a ship stranded in the event horizon of a black hole. The ship itself is broken apart—a shattered hull trailing debris. There are no signs of life. And yet the ghostly messages persist."
-				},
-				{
-					"Chance": 67,
-					"Description": "Most insist that horrors aren’t real. Spacers know the truth.",
-					"Details": "When you travel the depths of the Forge, be wary. Death is not always the end to our suffering. Some say we are cursed by those who did not survive the cataclysm, and the veil between life and death is forever weakened. Supernatural occurrences and entities are especially common near a white dwarf star. These stellar objects, which spacers call ghost lights, are the decaying remnants of a dead star.",
-					"Quest Starter": "A group of settlers established a home in an abandoned orbital station under the light of a white dwarf star. The previous inhabitants were killed in a raider attack years ago, but it seems the dead do not rest there. The people are plagued by constant mechanical issues, strange noises, and unsettling visions."
-				},
-				{
-					"Chance": 100,
-					"Description": "The strange energies of the Forge give unnatural life to the dead. The Soulbinders are an organization sworn to confront these horrifying entities.",
-					"Details": "The woken dead are a plague within the Forge. Some of these beings are benevolent or seek absolution, but most are hollowed and corrupted by death. They are driven by hate and a hunger for the warmth of life which is forever lost to them. The Soulbinders are dedicated to putting them to rest—whatever the cost.",
-					"Quest Starter": "Rumors persist of a fleet of ghost ships, bound for settled domains. Who is said to lead this corrupted armada? Why do they seek revenge against the living?"
-				}
-			],
-			"Character": "Have you experienced any supernatural encounters? If you specialize in battling undead or monstrous forces, you might be a SLAYER. If you have a supernatural connection to a spirit, you might be HAUNTED."
 		}
 	]
 }
