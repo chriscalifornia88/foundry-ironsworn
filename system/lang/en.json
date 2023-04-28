@@ -442,7 +442,7 @@
 				"name": "The Old World",
 				"option1": "The savage clans called the Skulde invaded the kingdoms of the Old World. Our armies fell. Most were killed or taken into slavery. Those who escaped set sail aboard anything that would float. After an arduous months-long voyage, the survivors made landfall upon the Ironlands.",
 				"quest1": "You are a descendant of the Skulde. Because of your heritage, your family has long borne the distrust of your fellow Ironlanders. Now, a small force of Skulde have landed on our shores. Are they the harbinger of an invasion? Where do your loyalties lie?",
-				"option2": "The sickness moved like a horrible wave across the Old World, killing all in its path. Thousands fled aboard ships. However, the plague could not be outrun. On many ships, the disease was contained through ruthless measures—tossing overboard any who exhibited the slightest symptom. Other ships were forever lost. In the end, those who survived found the Ironlands and made it their new home. Some say we will forever be cursed by those we left behind.",
+				"option2": "The sickness moved like a horrible wave across the Old World, killing all in its path. Thousands fled aboard ships. However, the plague could not be outrun. On many ships, the disease was contained through ruthless measures—tossing overboard any who exhibited the slightest symptom. Other ships were forever lost. In the end, those who survived found the Ironlands and made it their new home.",
 				"quest2": "A settlement is stricken by disease. Though this sickness bears some similarities to the Old World plague, it doesn’t kill its victims. Instead, it changes them. How does this disease manifest? Why do you swear to seek out a cure?",
 				"option3": "The Old World could no longer sustain us. We were too large in number. We had felled the forests. Our crops withered in the barren ground. The cities and villages overflowed with desperate, hungry people. Petty kings battled for scraps. We cast our fate to the sea and found the Ironlands. A new world. A fresh start.",
 				"quest3": "Decades ago, the exodus ended. Since then, no ships have sailed here from the Old World. Until now. Word comes of a single ship, newly arrived across the vast ocean, grounded on the rocks of the Barrier Islands. When you hear the name of this ship, you swear to uncover the fate of its passengers. Why is it so important to you?"
@@ -451,23 +451,23 @@
 				"name": "Iron",
 				"option1": "The imposing hills and mountains of the Ironlands are rich in iron ore. Most prized of all is the star-forged black iron.",
 				"quest1": "The caravan, bound for the distant southlands, left the mining settlement last season but never arrived at its destination. It carried a bounty of black iron. Why is finding this lost caravan so important to you?",
-				"option2": "The weather is bleak. Rain and wind sweep in from the ocean. The winters are long and bitter. One of the first settlers complained, \"Only those made of iron dare live in this foul place\" – and thus our land was named.",
+				"option2": "The weather is bleak. Rain and wind sweep in from the ocean. The winters are long and bitter. One of the first settlers complained, “Only those made of iron dare live in this foul place” — and thus our land was named.",
 				"quest2": "The harvest fell short. The unrelenting snows left the village isolated. The food is running out. What will you do to see these people through this harsh season?",
-				"option3": "Inscrutable metal pillars are found throughout the land. They are iron gray, and smooth as river stone. No one knows their purpose. Some say they are as old as the world. Some, such as the Iron Priests, worship them and swear vows upon them. Most make the warding sign and hurry along their way when they happen across one. The pillars do not tarnish, and even the sharpest blade cannot mark them.",
-				"quest3": "Your dreams are harrowed by visions of a pillar which stands in an unfamiliar landscape. What do you see? Why are you sworn to seek it out?"
+				"option3": "Inscrutable metal pillars are found throughout the land. They are iron gray, and smooth as river stone. No one knows their purpose. Some say they are as old as the world. Most hurry along their way when they happen across one. The pillars do not tarnish, and even the sharpest blade cannot mark them.",
+				"quest3": "You feel like you've seen these pillars before, but in an unfamiliar landscape. Why are you sworn to seek it out?"
 			},
 			"Legacies": {
 				"name": "Legacies",
 				"option1": "We are the first humans to walk these lands.",
-				"quest1": "In the writings of one of the first settlers, there is a description of a glade in the heart of the Deep Wilds. The spirits of this place are said to grant a miraculous blessing. What boon does it bestow?",
+				"quest1": "In the writings of one of the first settlers, there is a description of a glade in the heart of the Deep Wilds. What will you find there?",
 				"option2": "Other humans sailed here from the Old World untold years ago, but all that is left of them is a savage, feral people we call the broken. Is their fate to become our own?",
-				"quest2": "You find a child—one of the broken. It is wounded, and hunted by others of its kind. Do you protect it, even at the risk of inviting the wrath of the broken tribes?",
-				"option3": "Before the Ironlanders, before even the firstborn, another people lived here. Their ancient ruins are found throughout the Ironlands.",
-				"quest3": "Miners uncovered an underground ruin. Thereafter, the people of the settlement are harrowed by strange dreams. The ruins call to them, they say. Several have disappeared in that dark, ancient place – including someone important to you."
+				"quest2": "You find a child — one of the broken. It is wounded, and hunted by others of its kind. Do you protect it, even at the risk of inviting the wrath of the broken tribes?",
+				"option3": "Before the Ironlanders, before even the natives, another people lived here. Their ancient ruins are found throughout the Ironlands.",
+				"quest3": "Miners uncovered an underground ruin. Thereafter, the people of the settlement are suddenly becoming sick. Several have gone missing in the ruins — including someone important to you."
 			},
 			"Communities": {
 				"name": "Communities",
-				"option1": "We are few in number in this accursed land. Most rarely have contact with anyone outside our own small steading or village, and strangers are viewed with deep suspicion.",
+				"option1": "We are few in number in this dangerous land. Most rarely have contact with anyone outside our own small steading or village, and strangers are viewed with deep suspicion.",
 				"quest1": "In the dead of winter, a desperate man arrives at a snowbound steading. He is wounded, hungry, and nearly frozen to death. His family has been taken. By whom? Will you brave the merciless winter to save them?",
 				"option2": "We live in communities called circles. These are settlements ranging in size from a steading with a few families to a village of several hundred. Some circles belong to nomadic folk. Some powerful circles might include a cluster of settlements. We trade (and sometimes feud) with other circles.",
 				"quest2": "A decades-long feud between two circles has flared into open conflict. What is the cause of this dispute? Do you join in the fight, or swear to put a stop to it?",
@@ -476,12 +476,12 @@
 			},
 			"Leaders": {
 				"name": "Leaders",
-				"option1": "Leadership is as varied as the people. Some communities are governed by the head of a powerful family. Or, they have a council of elders who make decisions and settle disputes. In others, the priests hold sway. For some, it is duels in the circle that decide.",
+				"option1": "Leadership is as varied as the people. Some communities are governed by the head of a powerful family. Or, they have a council of elders who make decisions and settle disputes. In others, it is duels in the circle that decide.",
 				"quest1": "You have vivid reoccurring dreams of an Ironlands city. It has strong stone walls, bustling markets, and a keep on a high hill. And so many people! Nowhere in the Ironlands does such a city exist. In your dreams, you are the ruler of this city. Somehow, no matter how long it takes, you must make this vision a reality.",
 				"option2": "Each of our communities has its own leader, called an overseer. Every seventh spring, the people affirm their current overseer or choose a new one. Some overseers wear the iron circlet reluctantly, while others thirst for power and gain it through schemes or threats.",
-				"quest2": "An overseer has fallen ill. She is sure to die without help, and the illness is unknown to the village healer. Poison, or perhaps even foul magic, is suspected. The families in the community are now at each other’s throats as they position their preferred candidates to take up the iron circlet. Will you discover the truth of the overseer’s illness and restore her to health?",
+				"quest2": "An overseer has fallen ill. She is sure to die without help, and the illness is unknown to the village doctor. Poison, or perhaps even foul disease, is suspected. The families in the community are now at each other’s throats as they position their preferred candidates to take up the iron circlet. Will you discover the truth of the overseer’s illness and restore her to health?",
 				"option3": "Numerous clan-chiefs rule over petty domains. Most are intent on becoming the one true king. Their squabbles will be our undoing.",
-				"quest3": "You secretly possess one-half of the True Crown, an Old World relic. Centuries ago, this crown was broken in two when an assassin’s axe split the head of the supreme ruler. You are descended from that lineage. Who gave you this relic? Will you find the other half of the broken crown and attempt to unite the clans under your rule? Or, do you see another use for it?"
+				"quest3": "You secretly possess one-half of the True Crown, from the Old World. Centuries ago, this crown was broken in two by the assassin that killed the supreme ruler. You are descended from that lineage. Who gave it to you? Will you find the other half of the broken crown and attempt to unite the clans under your rule? Or, do you see another use for it?"
 			},
 			"Defense": {
 				"name": "Defense",
@@ -492,14 +492,14 @@
 				"option3": "Our warbands are rallied to strike at our enemies or defend our holdings. Though not nearly as impressive as the armies that once marched across the Old World, these forces are as well-trained and equipped as their communities can manage. The banners of the warbands are adorned with depictions of their Old World history and Ironland victories.",
 				"quest3": "A warband was wiped out in a battle against an overwhelming enemy. What is your connection to this band? Who defeated them? Will you carry their banner on a quest for vengeance, or do you vow to see it brought home to a place of honor?"
 			},
-			"Firstborn": {
-				"name": "Firstborn",
-				"option1": "The firstborn have passed into legend. Some say the remnants of the old tribes still dwell in deep forests or high mountains. Most believe they were never anything more than myth.",
-				"quest1": "Someone obsessed with the firstborn wants to find evidence of their existence. This will require an expedition into the far reaches of the Ironlands. What is your role in this mission?",
-				"option2": "The firstborn live in isolation and are fiercely protective of their own lands.",
-				"quest2": "The elf, outcast from his kind, lives with Ironlanders. Over time, he became a part of the community. Now, he is dying. He yearns to return to his people before he passes. Does he seek absolution or justice? Why do you swear to help him? What force opposes his return?",
-				"option3": "The firstborn hold sway in the Ironlands. The elves of the deep forests and the giants of the hills tolerate us and even trade with us—for now. Ironlanders fear the day they decide we are no longer welcome here.",
-				"quest3": "Humans and giants are on the brink of war. What has happened? Who do you side with? Can anything be done to defuse the situation?"
+			"Natives": {
+				"name": "Natives",
+				"option1": "The natives have passed into legend. Some say the remnants of the old tribes still dwell in deep forests or high mountains. Most believe they were never anything more than myth.",
+				"quest1": "Someone obsessed with the natives wants to find evidence of their existence. This will require an expedition into the far reaches of the Ironlands. What is your role in this mission?",
+				"option2": "The natives live in isolation and are fiercely protective of their own lands.",
+				"quest2": "The native, outcast from his kind, lives with Ironlanders. Over time, he became a part of the community. Now, he is dying. He yearns to return to his people before he passes. Does he seek absolution or justice? Why do you swear to help him? What force opposes his return?",
+				"option3": "The natives hold sway in the Ironlands. The natives of the deep forests and the people of the hills tolerate us and even trade with us—for now. Ironlanders fear the day they decide we are no longer welcome here.",
+				"quest3": "Humans and mountain people are on the brink of war. What has happened? Who do you side with? Can anything be done to defuse the situation?"
 			},
 			"Beasts": {
 				"name": "Beasts",
@@ -508,7 +508,7 @@
 				"option2": "Monstrous beasts stalk the wild areas of the Ironlands.",
 				"quest2": "A prominent Ironlander is consumed with the need to bring vengeance upon a specific beast. What makes this creature distinctive? How did it earn the wrath of this Ironlander? Do you aid this person in their quest, or act to prevent their blind hate from destroying more than just the beast?",
 				"option3": "Beasts of all sorts roam the Ironlands. They dwell primarily in the reaches, but range into the settled lands to hunt. There, they often prey on cattle, but attacks on travelers, caravans, or even settlements are not uncommon.",
-				"quest3": "Professional slayers earn their keep by killing beasts. This particular slayer, famed throughout the Ironlands for her numerous kills, has gone missing on a hunt. Did she finally meet her match, or is something more nefarious at play. What is your connection to her?"
+				"quest3": "Professional hunters earn their keep by keeping them at bay. This particular hunter, famed throughout the Ironlands for her numerous kills, has gone missing on a hunt. Did she finally meet her match, or is something more nefarious at play. What is your connection to her?"
 			}
 		},
 		"OracleCategories": {
