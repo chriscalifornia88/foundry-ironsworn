@@ -596,10 +596,6 @@
 				"Path": {
 					"Title": "Path",
 					"Description": "Paths represent your background, interests, training, and skills. They provide mechanical and narrative advantages, but also reflect who you are and how you interact with the world."
-				},
-				"Combat Talent": {
-					"Title": "Combat Talent",
-					"Description": "*Ironsworn* characters are assumed to be skilled fighters. Even without a combat talent, you can wield weapons and perform combat moves (page 78). A combat talent reflects a particular area of expertise, and gives you additional options and bonuses.\n\nCombat talent assets typically require you to wield a specific weapon, as noted in the asset text. For example, if you are a **Shield-Bearer** and don’t have a shield at the ready, you can’t use the asset’s abilities."
 				}
 			},
 			"Starforged": {

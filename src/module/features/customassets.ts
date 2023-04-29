@@ -18,11 +18,21 @@ export interface DisplayCategory {
 }
 
 export async function createIronswornAssetTree(): Promise<DisplayCategory[]> {
-	return await createAssetTree(
+	const a = await createAssetTree(
 		'foundry-ironsworn.ironswornassets',
 		'Ironsworn',
 		ISAssetTypes
 	)
+
+	console.log('assetTree', a);
+
+	const b = a.map((cat) => {
+		return cat?.assets?.filter((ea => ea.foundryItem() === null));
+	});
+
+	console.log('missingTreeItems15', b);
+
+	return a;
 }
 export async function createStarforgedAssetTree(): Promise<DisplayCategory[]> {
 	return await createAssetTree(

@@ -20,7 +20,7 @@
 			type="debility"
 			name="burdens"
 			class="flexcol"
-			:impacts="[{ name: 'cursed' }, { name: 'distressed' }]" />
+			:impacts="[{ name: 'distressed' }]" />
 
 		<ImpactCheckboxCustom
 			type="debility"
